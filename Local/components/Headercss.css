@@ -1,0 +1,15 @@
+nav{
+    background-color: burlywood;
+
+ }
+ nav ul{
+    display: flex;
+    justify-content: center;
+    list-style:none;
+
+ }
+
+ nav ul li{
+   margin: 10px;
+
+ }

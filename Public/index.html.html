@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <base target="_top">
+  <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+  <script src='https://unpkg.com/react-router-dom@5.0.0/umd/react-router-dom.min.js'></script>
+  <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <script type="text/babel" src="/Local/components/Header.js"></script>
+  <script type="stylesheet" src="/Local/components/Headercss.css"></script>
+  <script type="text/babel" src="/Local/pages/About.js"></script>
+  <script type="text/babel" src="/Local/pages/Home.js"></script>
+  <script type="text/babel" src="/Local/routes/Routes.js"></script>
+  <script type="text/babel" src="/Local/Global.js"></script>
+  <script type="text/babel" src="/Local/App.js"></script>
+
+
+</head>
+
+<body>
+  <div id="root"></div>
+
+</body>
+
+<!-- Components -->
+<?!= include('components/Header') ?>
+<?!= include('components/HeadersCss') ?>
+
+<!-- Pages -->
+<?!= include('pages/Home') ?>
+<?!= include('pages/About') ?>
+
+<!-- General -->
+<?!= include('routes/Routes') ?>
+<?!= include('Global') ?>
+<?!= include('App') ?>
+
+</html>
